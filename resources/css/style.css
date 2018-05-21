@@ -58,7 +58,7 @@ nav span {
   justify-content: flex-start;
   width: 1285px;
   margin-top: 70px;
-  padding-bottom: 400px;
+  padding-bottom: 20px;
   padding-top: 40px;
 }
 
@@ -139,8 +139,8 @@ p {
   height: 300px;
 }
 
-.height70 {
-  height: 70px;
+.height40 {
+  height: 40px;
 }
 
 .subColumns {
@@ -213,13 +213,13 @@ p {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   left: 0;
-  bottom: 0;
+/*  bottom: 0;*/
   height: 370px;
   display: flex;
   flex-flow: column wrap;
-  width: 800px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   background-color: MediumAquamarine;
